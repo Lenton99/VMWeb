@@ -1,0 +1,41 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\liam.lenton\\Documents\\GitHub\\VMWeb\\VMWeb\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\VMWeb.bundle.scp.css",
+      "PackagePath": "staticwebassets\\VMWeb.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\liam.lenton\\Documents\\GitHub\\VMWeb\\VMWeb\\wwwroot\\app.css",
+      "PackagePath": "staticwebassets\\app.css"
+    },
+    {
+      "Id": "C:\\Users\\liam.lenton\\Documents\\GitHub\\VMWeb\\VMWeb\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\liam.lenton\\Documents\\GitHub\\VMWeb\\VMWeb\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\liam.lenton\\Documents\\GitHub\\VMWeb\\VMWeb\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.VMWeb.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.VMWeb.props",
+      "PackagePath": "build\\VMWeb.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.VMWeb.props",
+      "PackagePath": "buildMultiTargeting\\VMWeb.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.VMWeb.props",
+      "PackagePath": "buildTransitive\\VMWeb.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
