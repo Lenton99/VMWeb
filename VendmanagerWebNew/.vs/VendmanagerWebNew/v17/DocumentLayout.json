@@ -1,0 +1,342 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\liam.lenton\\Documents\\GitHub\\Vendmanager-Web\\VendmanagerWebNew\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{12308D76-6ACA-4540-A520-5AD034206F15}|VendmanagerWebNew\\VendmanagerWebNew.csproj|c:\\users\\liam.lenton\\documents\\github\\vendmanager-web\\vendmanagerwebnew\\vendmanagerwebnew\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{12308D76-6ACA-4540-A520-5AD034206F15}|VendmanagerWebNew\\VendmanagerWebNew.csproj|solutionrelative:vendmanagerwebnew\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70C09A67-4273-49AF-B6E0-4BDAB7F7E646}|..\\..\\mslearn-interact-with-data-blazor-web-apps\\BlazingPizza.csproj|c:\\users\\liam.lenton\\documents\\github\\mslearn-interact-with-data-blazor-web-apps\\pages\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12308D76-6ACA-4540-A520-5AD034206F15}|VendmanagerWebNew\\VendmanagerWebNew.csproj|c:\\users\\liam.lenton\\documents\\github\\vendmanager-web\\vendmanagerwebnew\\vendmanagerwebnew\\components\\pages\\blazingpizza.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{12308D76-6ACA-4540-A520-5AD034206F15}|VendmanagerWebNew\\VendmanagerWebNew.csproj|solutionrelative:vendmanagerwebnew\\components\\pages\\blazingpizza.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12308D76-6ACA-4540-A520-5AD034206F15}|VendmanagerWebNew\\VendmanagerWebNew.csproj|c:\\users\\liam.lenton\\documents\\github\\vendmanager-web\\vendmanagerwebnew\\vendmanagerwebnew\\wwwroot\\button.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{12308D76-6ACA-4540-A520-5AD034206F15}|VendmanagerWebNew\\VendmanagerWebNew.csproj|solutionrelative:vendmanagerwebnew\\wwwroot\\button.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12308D76-6ACA-4540-A520-5AD034206F15}|VendmanagerWebNew\\VendmanagerWebNew.csproj|c:\\users\\liam.lenton\\documents\\github\\vendmanager-web\\vendmanagerwebnew\\vendmanagerwebnew\\components\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{12308D76-6ACA-4540-A520-5AD034206F15}|VendmanagerWebNew\\VendmanagerWebNew.csproj|solutionrelative:vendmanagerwebnew\\components\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12308D76-6ACA-4540-A520-5AD034206F15}|VendmanagerWebNew\\VendmanagerWebNew.csproj|c:\\users\\liam.lenton\\documents\\github\\vendmanager-web\\vendmanagerwebnew\\vendmanagerwebnew\\wwwroot\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{12308D76-6ACA-4540-A520-5AD034206F15}|VendmanagerWebNew\\VendmanagerWebNew.csproj|solutionrelative:vendmanagerwebnew\\wwwroot\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12308D76-6ACA-4540-A520-5AD034206F15}|VendmanagerWebNew\\VendmanagerWebNew.csproj|c:\\users\\liam.lenton\\documents\\github\\vendmanager-web\\vendmanagerwebnew\\vendmanagerwebnew\\components\\pages\\todo.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{12308D76-6ACA-4540-A520-5AD034206F15}|VendmanagerWebNew\\VendmanagerWebNew.csproj|solutionrelative:vendmanagerwebnew\\components\\pages\\todo.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12308D76-6ACA-4540-A520-5AD034206F15}|VendmanagerWebNew\\VendmanagerWebNew.csproj|c:\\users\\liam.lenton\\documents\\github\\vendmanager-web\\vendmanagerwebnew\\vendmanagerwebnew\\wwwroot\\bootstrap\\bootstrap.min.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{12308D76-6ACA-4540-A520-5AD034206F15}|VendmanagerWebNew\\VendmanagerWebNew.csproj|solutionrelative:vendmanagerwebnew\\wwwroot\\bootstrap\\bootstrap.min.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12308D76-6ACA-4540-A520-5AD034206F15}|VendmanagerWebNew\\VendmanagerWebNew.csproj|c:\\users\\liam.lenton\\documents\\github\\vendmanager-web\\vendmanagerwebnew\\vendmanagerwebnew\\todoitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12308D76-6ACA-4540-A520-5AD034206F15}|VendmanagerWebNew\\VendmanagerWebNew.csproj|solutionrelative:vendmanagerwebnew\\todoitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12308D76-6ACA-4540-A520-5AD034206F15}|VendmanagerWebNew\\VendmanagerWebNew.csproj|c:\\users\\liam.lenton\\documents\\github\\vendmanager-web\\vendmanagerwebnew\\vendmanagerwebnew\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{12308D76-6ACA-4540-A520-5AD034206F15}|VendmanagerWebNew\\VendmanagerWebNew.csproj|solutionrelative:vendmanagerwebnew\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12308D76-6ACA-4540-A520-5AD034206F15}|VendmanagerWebNew\\VendmanagerWebNew.csproj|c:\\users\\liam.lenton\\documents\\github\\vendmanager-web\\vendmanagerwebnew\\vendmanagerwebnew\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{12308D76-6ACA-4540-A520-5AD034206F15}|VendmanagerWebNew\\VendmanagerWebNew.csproj|solutionrelative:vendmanagerwebnew\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12308D76-6ACA-4540-A520-5AD034206F15}|VendmanagerWebNew\\VendmanagerWebNew.csproj|c:\\users\\liam.lenton\\documents\\github\\vendmanager-web\\vendmanagerwebnew\\vendmanagerwebnew\\components\\pages\\searchform.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{12308D76-6ACA-4540-A520-5AD034206F15}|VendmanagerWebNew\\VendmanagerWebNew.csproj|solutionrelative:vendmanagerwebnew\\components\\pages\\searchform.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12308D76-6ACA-4540-A520-5AD034206F15}|VendmanagerWebNew\\VendmanagerWebNew.csproj|c:\\users\\liam.lenton\\documents\\github\\vendmanager-web\\vendmanagerwebnew\\vendmanagerwebnew\\components\\tools\\logger.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{12308D76-6ACA-4540-A520-5AD034206F15}|VendmanagerWebNew\\VendmanagerWebNew.csproj|solutionrelative:vendmanagerwebnew\\components\\tools\\logger.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12308D76-6ACA-4540-A520-5AD034206F15}|VendmanagerWebNew\\VendmanagerWebNew.csproj|c:\\users\\liam.lenton\\documents\\github\\vendmanager-web\\vendmanagerwebnew\\vendmanagerwebnew\\components\\tools\\log.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12308D76-6ACA-4540-A520-5AD034206F15}|VendmanagerWebNew\\VendmanagerWebNew.csproj|solutionrelative:vendmanagerwebnew\\components\\tools\\log.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12308D76-6ACA-4540-A520-5AD034206F15}|VendmanagerWebNew\\VendmanagerWebNew.csproj|c:\\users\\liam.lenton\\documents\\github\\vendmanager-web\\vendmanagerwebnew\\vendmanagerwebnew\\components\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{12308D76-6ACA-4540-A520-5AD034206F15}|VendmanagerWebNew\\VendmanagerWebNew.csproj|solutionrelative:vendmanagerwebnew\\components\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12308D76-6ACA-4540-A520-5AD034206F15}|VendmanagerWebNew\\VendmanagerWebNew.csproj|c:\\users\\liam.lenton\\documents\\github\\vendmanager-web\\vendmanagerwebnew\\vendmanagerwebnew\\wwwroot\\log.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{12308D76-6ACA-4540-A520-5AD034206F15}|VendmanagerWebNew\\VendmanagerWebNew.csproj|solutionrelative:vendmanagerwebnew\\wwwroot\\log.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12308D76-6ACA-4540-A520-5AD034206F15}|VendmanagerWebNew\\VendmanagerWebNew.csproj|c:\\users\\liam.lenton\\documents\\github\\vendmanager-web\\vendmanagerwebnew\\vendmanagerwebnew\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12308D76-6ACA-4540-A520-5AD034206F15}|VendmanagerWebNew\\VendmanagerWebNew.csproj|solutionrelative:vendmanagerwebnew\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12308D76-6ACA-4540-A520-5AD034206F15}|VendmanagerWebNew\\VendmanagerWebNew.csproj|c:\\users\\liam.lenton\\documents\\github\\vendmanager-web\\vendmanagerwebnew\\vendmanagerwebnew\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{12308D76-6ACA-4540-A520-5AD034206F15}|VendmanagerWebNew\\VendmanagerWebNew.csproj|solutionrelative:vendmanagerwebnew\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12308D76-6ACA-4540-A520-5AD034206F15}|VendmanagerWebNew\\VendmanagerWebNew.csproj|c:\\users\\liam.lenton\\documents\\github\\vendmanager-web\\vendmanagerwebnew\\vendmanagerwebnew\\components\\data\\data.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12308D76-6ACA-4540-A520-5AD034206F15}|VendmanagerWebNew\\VendmanagerWebNew.csproj|solutionrelative:vendmanagerwebnew\\components\\data\\data.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12308D76-6ACA-4540-A520-5AD034206F15}|VendmanagerWebNew\\VendmanagerWebNew.csproj|c:\\users\\liam.lenton\\documents\\github\\vendmanager-web\\vendmanagerwebnew\\vendmanagerwebnew\\components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{12308D76-6ACA-4540-A520-5AD034206F15}|VendmanagerWebNew\\VendmanagerWebNew.csproj|solutionrelative:vendmanagerwebnew\\components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "C:\\Users\\liam.lenton\\Documents\\GitHub\\Vendmanager-Web\\VendmanagerWebNew\\VendmanagerWebNew\\Dockerfile",
+              "RelativeDocumentMoniker": "VendmanagerWebNew\\Dockerfile",
+              "ToolTip": "C:\\Users\\liam.lenton\\Documents\\GitHub\\Vendmanager-Web\\VendmanagerWebNew\\VendmanagerWebNew\\Dockerfile",
+              "RelativeToolTip": "VendmanagerWebNew\\Dockerfile",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-07-08T06:27:25.49Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.razor",
+              "DocumentMoniker": "C:\\Users\\liam.lenton\\Documents\\GitHub\\mslearn-interact-with-data-blazor-web-apps\\Pages\\Index.razor",
+              "RelativeDocumentMoniker": "..\\..\\mslearn-interact-with-data-blazor-web-apps\\Pages\\Index.razor",
+              "ToolTip": "C:\\Users\\liam.lenton\\Documents\\GitHub\\mslearn-interact-with-data-blazor-web-apps\\Pages\\Index.razor",
+              "RelativeToolTip": "..\\..\\mslearn-interact-with-data-blazor-web-apps\\Pages\\Index.razor",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAIwCQAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-28T10:31:12.184Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BlazingPizza.razor",
+              "DocumentMoniker": "C:\\Users\\liam.lenton\\Documents\\GitHub\\Vendmanager-Web\\VendmanagerWebNew\\VendmanagerWebNew\\Components\\Pages\\BlazingPizza.razor",
+              "RelativeDocumentMoniker": "VendmanagerWebNew\\Components\\Pages\\BlazingPizza.razor",
+              "ToolTip": "C:\\Users\\liam.lenton\\Documents\\GitHub\\Vendmanager-Web\\VendmanagerWebNew\\VendmanagerWebNew\\Components\\Pages\\BlazingPizza.razor",
+              "RelativeToolTip": "VendmanagerWebNew\\Components\\Pages\\BlazingPizza.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-28T09:18:59.521Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "button.css",
+              "DocumentMoniker": "C:\\Users\\liam.lenton\\Documents\\GitHub\\Vendmanager-Web\\VendmanagerWebNew\\VendmanagerWebNew\\wwwroot\\button.css",
+              "RelativeDocumentMoniker": "VendmanagerWebNew\\wwwroot\\button.css",
+              "ToolTip": "C:\\Users\\liam.lenton\\Documents\\GitHub\\Vendmanager-Web\\VendmanagerWebNew\\VendmanagerWebNew\\wwwroot\\button.css",
+              "RelativeToolTip": "VendmanagerWebNew\\wwwroot\\button.css",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAAAUAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-06-27T12:45:29.05Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "app.css",
+              "DocumentMoniker": "C:\\Users\\liam.lenton\\Documents\\GitHub\\Vendmanager-Web\\VendmanagerWebNew\\VendmanagerWebNew\\wwwroot\\app.css",
+              "RelativeDocumentMoniker": "VendmanagerWebNew\\wwwroot\\app.css",
+              "ToolTip": "C:\\Users\\liam.lenton\\Documents\\GitHub\\Vendmanager-Web\\VendmanagerWebNew\\VendmanagerWebNew\\wwwroot\\app.css",
+              "RelativeToolTip": "VendmanagerWebNew\\wwwroot\\app.css",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAAADQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-06-27T12:41:59.518Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Todo.razor",
+              "DocumentMoniker": "C:\\Users\\liam.lenton\\Documents\\GitHub\\Vendmanager-Web\\VendmanagerWebNew\\VendmanagerWebNew\\Components\\Pages\\Todo.razor",
+              "RelativeDocumentMoniker": "VendmanagerWebNew\\Components\\Pages\\Todo.razor",
+              "ToolTip": "C:\\Users\\liam.lenton\\Documents\\GitHub\\Vendmanager-Web\\VendmanagerWebNew\\VendmanagerWebNew\\Components\\Pages\\Todo.razor",
+              "RelativeToolTip": "VendmanagerWebNew\\Components\\Pages\\Todo.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-27T12:26:35.465Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Logger.razor",
+              "DocumentMoniker": "C:\\Users\\liam.lenton\\Documents\\GitHub\\Vendmanager-Web\\VendmanagerWebNew\\VendmanagerWebNew\\Components\\Tools\\Logger.razor",
+              "RelativeDocumentMoniker": "VendmanagerWebNew\\Components\\Tools\\Logger.razor",
+              "ToolTip": "C:\\Users\\liam.lenton\\Documents\\GitHub\\Vendmanager-Web\\VendmanagerWebNew\\VendmanagerWebNew\\Components\\Tools\\Logger.razor",
+              "RelativeToolTip": "VendmanagerWebNew\\Components\\Tools\\Logger.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-25T14:45:26.616Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "SearchForm.razor",
+              "DocumentMoniker": "C:\\Users\\liam.lenton\\Documents\\GitHub\\Vendmanager-Web\\VendmanagerWebNew\\VendmanagerWebNew\\Components\\Pages\\SearchForm.razor",
+              "RelativeDocumentMoniker": "VendmanagerWebNew\\Components\\Pages\\SearchForm.razor",
+              "ToolTip": "C:\\Users\\liam.lenton\\Documents\\GitHub\\Vendmanager-Web\\VendmanagerWebNew\\VendmanagerWebNew\\Components\\Pages\\SearchForm.razor",
+              "RelativeToolTip": "VendmanagerWebNew\\Components\\Pages\\SearchForm.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-25T13:20:51.88Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Home.razor",
+              "DocumentMoniker": "C:\\Users\\liam.lenton\\Documents\\GitHub\\Vendmanager-Web\\VendmanagerWebNew\\VendmanagerWebNew\\Components\\Pages\\Home.razor",
+              "RelativeDocumentMoniker": "VendmanagerWebNew\\Components\\Pages\\Home.razor",
+              "ToolTip": "C:\\Users\\liam.lenton\\Documents\\GitHub\\Vendmanager-Web\\VendmanagerWebNew\\VendmanagerWebNew\\Components\\Pages\\Home.razor",
+              "RelativeToolTip": "VendmanagerWebNew\\Components\\Pages\\Home.razor",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-25T13:19:37.792Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "NavMenu.razor",
+              "DocumentMoniker": "C:\\Users\\liam.lenton\\Documents\\GitHub\\Vendmanager-Web\\VendmanagerWebNew\\VendmanagerWebNew\\Components\\Layout\\NavMenu.razor",
+              "RelativeDocumentMoniker": "VendmanagerWebNew\\Components\\Layout\\NavMenu.razor",
+              "ToolTip": "C:\\Users\\liam.lenton\\Documents\\GitHub\\Vendmanager-Web\\VendmanagerWebNew\\VendmanagerWebNew\\Components\\Layout\\NavMenu.razor",
+              "RelativeToolTip": "VendmanagerWebNew\\Components\\Layout\\NavMenu.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-25T13:19:50.654Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Log.cs",
+              "DocumentMoniker": "C:\\Users\\liam.lenton\\Documents\\GitHub\\Vendmanager-Web\\VendmanagerWebNew\\VendmanagerWebNew\\Components\\Tools\\Log.cs",
+              "RelativeDocumentMoniker": "VendmanagerWebNew\\Components\\Tools\\Log.cs",
+              "ToolTip": "C:\\Users\\liam.lenton\\Documents\\GitHub\\Vendmanager-Web\\VendmanagerWebNew\\VendmanagerWebNew\\Components\\Tools\\Log.cs",
+              "RelativeToolTip": "VendmanagerWebNew\\Components\\Tools\\Log.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-25T15:03:50.739Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "log.js",
+              "DocumentMoniker": "C:\\Users\\liam.lenton\\Documents\\GitHub\\Vendmanager-Web\\VendmanagerWebNew\\VendmanagerWebNew\\wwwroot\\log.js",
+              "RelativeDocumentMoniker": "VendmanagerWebNew\\wwwroot\\log.js",
+              "ToolTip": "C:\\Users\\liam.lenton\\Documents\\GitHub\\Vendmanager-Web\\VendmanagerWebNew\\VendmanagerWebNew\\wwwroot\\log.js",
+              "RelativeToolTip": "VendmanagerWebNew\\wwwroot\\log.js",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-06-25T15:02:05.138Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Data.cs",
+              "DocumentMoniker": "C:\\Users\\liam.lenton\\Documents\\GitHub\\Vendmanager-Web\\VendmanagerWebNew\\VendmanagerWebNew\\Components\\Data\\Data.cs",
+              "RelativeDocumentMoniker": "VendmanagerWebNew\\Components\\Data\\Data.cs",
+              "ToolTip": "C:\\Users\\liam.lenton\\Documents\\GitHub\\Vendmanager-Web\\VendmanagerWebNew\\VendmanagerWebNew\\Components\\Data\\Data.cs",
+              "RelativeToolTip": "VendmanagerWebNew\\Components\\Data\\Data.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAxwBwAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-25T13:26:19.449Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\liam.lenton\\Documents\\GitHub\\Vendmanager-Web\\VendmanagerWebNew\\VendmanagerWebNew\\appsettings.json",
+              "RelativeDocumentMoniker": "VendmanagerWebNew\\appsettings.json",
+              "ToolTip": "C:\\Users\\liam.lenton\\Documents\\GitHub\\Vendmanager-Web\\VendmanagerWebNew\\VendmanagerWebNew\\appsettings.json",
+              "RelativeToolTip": "VendmanagerWebNew\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-06-25T13:53:25.431Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "MainLayout.razor",
+              "DocumentMoniker": "C:\\Users\\liam.lenton\\Documents\\GitHub\\Vendmanager-Web\\VendmanagerWebNew\\VendmanagerWebNew\\Components\\Layout\\MainLayout.razor",
+              "RelativeDocumentMoniker": "VendmanagerWebNew\\Components\\Layout\\MainLayout.razor",
+              "ToolTip": "C:\\Users\\liam.lenton\\Documents\\GitHub\\Vendmanager-Web\\VendmanagerWebNew\\VendmanagerWebNew\\Components\\Layout\\MainLayout.razor",
+              "RelativeToolTip": "VendmanagerWebNew\\Components\\Layout\\MainLayout.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-25T13:19:50.04Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "App.razor",
+              "DocumentMoniker": "C:\\Users\\liam.lenton\\Documents\\GitHub\\Vendmanager-Web\\VendmanagerWebNew\\VendmanagerWebNew\\Components\\App.razor",
+              "RelativeDocumentMoniker": "VendmanagerWebNew\\Components\\App.razor",
+              "ToolTip": "C:\\Users\\liam.lenton\\Documents\\GitHub\\Vendmanager-Web\\VendmanagerWebNew\\VendmanagerWebNew\\Components\\App.razor",
+              "RelativeToolTip": "VendmanagerWebNew\\Components\\App.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-25T13:18:51.942Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "TodoItem.cs",
+              "DocumentMoniker": "C:\\Users\\liam.lenton\\Documents\\GitHub\\Vendmanager-Web\\VendmanagerWebNew\\VendmanagerWebNew\\TodoItem.cs",
+              "RelativeDocumentMoniker": "VendmanagerWebNew\\TodoItem.cs",
+              "ToolTip": "C:\\Users\\liam.lenton\\Documents\\GitHub\\Vendmanager-Web\\VendmanagerWebNew\\VendmanagerWebNew\\TodoItem.cs",
+              "RelativeToolTip": "VendmanagerWebNew\\TodoItem.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-27T12:30:31.883Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "bootstrap.min.css",
+              "DocumentMoniker": "C:\\Users\\liam.lenton\\Documents\\GitHub\\Vendmanager-Web\\VendmanagerWebNew\\VendmanagerWebNew\\wwwroot\\bootstrap\\bootstrap.min.css",
+              "RelativeDocumentMoniker": "VendmanagerWebNew\\wwwroot\\bootstrap\\bootstrap.min.css",
+              "ToolTip": "C:\\Users\\liam.lenton\\Documents\\GitHub\\Vendmanager-Web\\VendmanagerWebNew\\VendmanagerWebNew\\wwwroot\\bootstrap\\bootstrap.min.css",
+              "RelativeToolTip": "VendmanagerWebNew\\wwwroot\\bootstrap\\bootstrap.min.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-06-27T12:43:45.873Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\liam.lenton\\Documents\\GitHub\\Vendmanager-Web\\VendmanagerWebNew\\VendmanagerWebNew\\Program.cs",
+              "RelativeDocumentMoniker": "VendmanagerWebNew\\Program.cs",
+              "ToolTip": "C:\\Users\\liam.lenton\\Documents\\GitHub\\Vendmanager-Web\\VendmanagerWebNew\\VendmanagerWebNew\\Program.cs",
+              "RelativeToolTip": "VendmanagerWebNew\\Program.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAuwBsAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-25T13:18:32.441Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "_Imports.razor",
+              "DocumentMoniker": "C:\\Users\\liam.lenton\\Documents\\GitHub\\Vendmanager-Web\\VendmanagerWebNew\\VendmanagerWebNew\\Components\\_Imports.razor",
+              "RelativeDocumentMoniker": "VendmanagerWebNew\\Components\\_Imports.razor",
+              "ToolTip": "C:\\Users\\liam.lenton\\Documents\\GitHub\\Vendmanager-Web\\VendmanagerWebNew\\VendmanagerWebNew\\Components\\_Imports.razor",
+              "RelativeToolTip": "VendmanagerWebNew\\Components\\_Imports.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-25T13:17:24.329Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
