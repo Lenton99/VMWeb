@@ -1,0 +1,58 @@
+﻿@page "/login"
+@using DevExpress.Blazor
+@inject NavigationManager Navigation
+
+<EditForm Model="@loginModel" OnValidSubmit="@HandleValidSubmit">
+    <DataAnnotationsValidator />
+    <DxValidationSummary />
+    @* <DxFormLayout>
+        <DxFormLayoutItem Caption="Username">
+            <DxTextBox @bind-Text="loginModel.Username" ValidationSettings-ValidateOnInput="true">
+                <ValidationRules>
+                    <RequiredRule Message="Username is required." />
+                </ValidationRules>
+            </DxTextBox>
+        </DxFormLayoutItem>
+        <DxFormLayoutItem Caption="Password">
+            <DxTextBox @bind-Text="loginModel.Password" Password="true" ValidationSettings-ValidateOnInput="true">
+                <ValidationRules>
+                    <RequiredRule Message="Password is required." />
+                </ValidationRules>
+            </DxTextBox>
+        </DxFormLayoutItem>
+        <DxFormLayoutItem>
+            <DxButton RenderStyle="ButtonRenderStyle.Primary" SubmitFormOnClick="true">Login</DxButton>
+        </DxFormLayoutItem>
+    </DxFormLayout> *@
+</EditForm>
+
+@if (loginFailed)
+{
+    <DxAlert Content="Login failed. Please check your username and password." />
+}
+
+@code {
+    private LoginModel loginModel = new LoginModel();
+    private bool loginFailed;
+
+    private void HandleValidSubmit()
+    {
+        // Here you would normally call a service to validate the user credentials
+        // For this example, we'll assume a hardcoded username and password
+        if (loginModel.Username == "admin" && loginModel.Password == "password")
+        {
+            loginFailed = false;
+            Navigation.NavigateTo("/dashboard"); // Navigate to a different page upon successful login
+        }
+        else
+        {
+            loginFailed = true;
+        }
+    }
+
+    private class LoginModel
+    {
+        public string Username { get; set; }
+        public string Password { get; set; }
+    }
+}

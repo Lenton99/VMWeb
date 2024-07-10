@@ -1,0 +1,36 @@
+﻿<DxAccordion AllowItemSelection="true" ActiveItemIndex="@activeItemIndex" Class="vertical-accordion">
+    <AccordionItem Text="Home">
+        @* <NavLink href="/" class="nav-link">Home</NavLink> *@
+    </AccordionItem>
+    <AccordionItem Text="Company">
+        @* <NavLink href="/company/overview" class="nav-link">Overview</NavLink>
+        <NavLink href="/company/team" class="nav-link">Team</NavLink>
+        <NavLink href="/company/careers" class="nav-link">Careers</NavLink> *@
+    </AccordionItem>
+    <AccordionItem Text="Products">
+       @*  <NavLink href="/products/all" class="nav-link">All Products</NavLink>
+        <NavLink href="/products/new" class="nav-link">New Products</NavLink> *@
+    </AccordionItem>
+</DxAccordion>
+
+@code {
+    int activeItemIndex = -1; // Initialize with no item selected
+}
+
+<style>
+    .vertical-accordion {
+        width: 250px; /* Adjust width as needed */
+    }
+
+    .nav-link {
+        display: block;
+        padding: 8px 12px;
+        color: #333;
+        background-color: red;   
+        text-decoration: none;
+    }
+
+    .nav-link:hover {
+        background-color: #f0f0f0;
+    }
+</style>
