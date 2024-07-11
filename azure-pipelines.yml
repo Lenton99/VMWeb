@@ -36,3 +36,11 @@ steps:
     testResultsFiles: '$(Build.ArtifactStagingDirectory)/TestResults/*.trx'
     mergeTestResults: true
     testRunTitle: 'bUnit Tests'
+
+- task: SonarCloudPrepare@1
+  displayName: 'Stage 6 - VM Code Analysis'
+  inputs:
+    SonarCloud: 'VMWeb'  # Use the name of your SonarCloud service connection
+    organization: 'lenton99'  # Replace with your SonarCloud organization key
+    projectKey: 'Lenton99_VMWeb'  # Replace with your SonarCloud project key
+    projectName: 'VMWeb'  # Replace with your SonarCloud project name
