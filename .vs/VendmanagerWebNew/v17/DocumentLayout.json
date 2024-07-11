@@ -3,18 +3,6 @@
   "WorkspaceRootPath": "C:\\Users\\liam.lenton\\Documents\\GitHub\\VMWeb\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6E6DDE14-F5B1-4D04-94E9-5C5F742E9ED8}|VMWeb\\VMWeb.csproj|c:\\users\\liam.lenton\\documents\\github\\vmweb\\vmweb\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6E6DDE14-F5B1-4D04-94E9-5C5F742E9ED8}|VMWeb\\VMWeb.csproj|solutionrelative:vmweb\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6E6DDE14-F5B1-4D04-94E9-5C5F742E9ED8}|VMWeb\\VMWeb.csproj|c:\\users\\liam.lenton\\documents\\github\\vmweb\\vmweb\\components\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{6E6DDE14-F5B1-4D04-94E9-5C5F742E9ED8}|VMWeb\\VMWeb.csproj|solutionrelative:vmweb\\components\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6E6DDE14-F5B1-4D04-94E9-5C5F742E9ED8}|VMWeb\\VMWeb.csproj|c:\\users\\liam.lenton\\documents\\github\\vmweb\\vmweb\\components\\pages\\login.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{6E6DDE14-F5B1-4D04-94E9-5C5F742E9ED8}|VMWeb\\VMWeb.csproj|solutionrelative:vmweb\\components\\pages\\login.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{6E6DDE14-F5B1-4D04-94E9-5C5F742E9ED8}|VMWeb\\VMWeb.csproj|c:\\users\\liam.lenton\\documents\\github\\vmweb\\vmweb\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{6E6DDE14-F5B1-4D04-94E9-5C5F742E9ED8}|VMWeb\\VMWeb.csproj|solutionrelative:vmweb\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -25,6 +13,26 @@
     {
       "AbsoluteMoniker": "D:0:0:{6E6DDE14-F5B1-4D04-94E9-5C5F742E9ED8}|VMWeb\\VMWeb.csproj|c:\\users\\liam.lenton\\documents\\github\\vmweb\\vmweb\\components\\routes.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{6E6DDE14-F5B1-4D04-94E9-5C5F742E9ED8}|VMWeb\\VMWeb.csproj|solutionrelative:vmweb\\components\\routes.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E6DDE14-F5B1-4D04-94E9-5C5F742E9ED8}|VMWeb\\VMWeb.csproj|c:\\users\\liam.lenton\\documents\\github\\vmweb\\vmweb\\components\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6E6DDE14-F5B1-4D04-94E9-5C5F742E9ED8}|VMWeb\\VMWeb.csproj|solutionrelative:vmweb\\components\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E6DDE14-F5B1-4D04-94E9-5C5F742E9ED8}|VMWeb\\VMWeb.csproj|c:\\users\\liam.lenton\\documents\\github\\vmweb\\vmweb\\components\\testform.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6E6DDE14-F5B1-4D04-94E9-5C5F742E9ED8}|VMWeb\\VMWeb.csproj|solutionrelative:vmweb\\components\\testform.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E6DDE14-F5B1-4D04-94E9-5C5F742E9ED8}|VMWeb\\VMWeb.csproj|c:\\users\\liam.lenton\\documents\\github\\vmweb\\vmweb\\components\\test\\testformtest.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6E6DDE14-F5B1-4D04-94E9-5C5F742E9ED8}|VMWeb\\VMWeb.csproj|solutionrelative:vmweb\\components\\test\\testformtest.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E6DDE14-F5B1-4D04-94E9-5C5F742E9ED8}|VMWeb\\VMWeb.csproj|c:\\users\\liam.lenton\\documents\\github\\vmweb\\vmweb\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E6DDE14-F5B1-4D04-94E9-5C5F742E9ED8}|VMWeb\\VMWeb.csproj|solutionrelative:vmweb\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E6DDE14-F5B1-4D04-94E9-5C5F742E9ED8}|VMWeb\\VMWeb.csproj|c:\\users\\liam.lenton\\documents\\github\\vmweb\\vmweb\\components\\pages\\login.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6E6DDE14-F5B1-4D04-94E9-5C5F742E9ED8}|VMWeb\\VMWeb.csproj|solutionrelative:vmweb\\components\\pages\\login.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6E6DDE14-F5B1-4D04-94E9-5C5F742E9ED8}|VMWeb\\VMWeb.csproj|c:\\users\\liam.lenton\\documents\\github\\vmweb\\vmweb\\data\\data.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -66,99 +74,37 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Data.cs",
-              "DocumentMoniker": "C:\\Users\\liam.lenton\\Documents\\GitHub\\VMWeb\\VMWeb\\Data\\Data.cs",
-              "RelativeDocumentMoniker": "VMWeb\\Data\\Data.cs",
-              "ToolTip": "C:\\Users\\liam.lenton\\Documents\\GitHub\\VMWeb\\VMWeb\\Data\\Data.cs",
-              "RelativeToolTip": "VMWeb\\Data\\Data.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-10T07:48:29.021Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Home.razor",
-              "DocumentMoniker": "C:\\Users\\liam.lenton\\Documents\\GitHub\\VMWeb\\VMWeb\\Components\\Pages\\Home.razor",
-              "RelativeDocumentMoniker": "VMWeb\\Components\\Pages\\Home.razor",
-              "ToolTip": "C:\\Users\\liam.lenton\\Documents\\GitHub\\VMWeb\\VMWeb\\Components\\Pages\\Home.razor",
-              "RelativeToolTip": "VMWeb\\Components\\Pages\\Home.razor",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAkAAAA",
+              "DocumentIndex": 4,
+              "Title": "TestForm.razor",
+              "DocumentMoniker": "C:\\Users\\liam.lenton\\Documents\\GitHub\\VMWeb\\VMWeb\\Components\\TestForm.razor",
+              "RelativeDocumentMoniker": "VMWeb\\Components\\TestForm.razor",
+              "ToolTip": "C:\\Users\\liam.lenton\\Documents\\GitHub\\VMWeb\\VMWeb\\Components\\TestForm.razor",
+              "RelativeToolTip": "VMWeb\\Components\\TestForm.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAHAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-08T08:03:45.616Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\liam.lenton\\Documents\\GitHub\\VMWeb\\VMWeb\\appsettings.json",
-              "RelativeDocumentMoniker": "VMWeb\\appsettings.json",
-              "ToolTip": "C:\\Users\\liam.lenton\\Documents\\GitHub\\VMWeb\\VMWeb\\appsettings.json",
-              "RelativeToolTip": "VMWeb\\appsettings.json",
-              "ViewState": "AQIAAAUAAAAAAAAAAAAcwAkAAABkAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-07-10T07:54:40.652Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "UserDataBase.cs",
-              "DocumentMoniker": "C:\\Users\\liam.lenton\\Documents\\GitHub\\VMWeb\\VMWeb\\Components\\Models\\UserDataBase.cs",
-              "RelativeDocumentMoniker": "VMWeb\\Components\\Models\\UserDataBase.cs",
-              "ToolTip": "C:\\Users\\liam.lenton\\Documents\\GitHub\\VMWeb\\VMWeb\\Components\\Models\\UserDataBase.cs",
-              "RelativeToolTip": "VMWeb\\Components\\Models\\UserDataBase.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-10T07:45:22.547Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Error.razor",
-              "DocumentMoniker": "C:\\Users\\liam.lenton\\Documents\\GitHub\\VMWeb\\VMWeb\\Components\\Pages\\Error.razor",
-              "RelativeDocumentMoniker": "VMWeb\\Components\\Pages\\Error.razor",
-              "ToolTip": "C:\\Users\\liam.lenton\\Documents\\GitHub\\VMWeb\\VMWeb\\Components\\Pages\\Error.razor",
-              "RelativeToolTip": "VMWeb\\Components\\Pages\\Error.razor",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAEAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-08T12:04:08.984Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "MainLayout.razor",
-              "DocumentMoniker": "C:\\Users\\liam.lenton\\Documents\\GitHub\\VMWeb\\VMWeb\\Components\\Layout\\MainLayout.razor",
-              "RelativeDocumentMoniker": "VMWeb\\Components\\Layout\\MainLayout.razor",
-              "ToolTip": "C:\\Users\\liam.lenton\\Documents\\GitHub\\VMWeb\\VMWeb\\Components\\Layout\\MainLayout.razor",
-              "RelativeToolTip": "VMWeb\\Components\\Layout\\MainLayout.razor",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAASAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-08T11:18:00.358Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "_Imports.razor",
-              "DocumentMoniker": "C:\\Users\\liam.lenton\\Documents\\GitHub\\VMWeb\\VMWeb\\Components\\_Imports.razor",
-              "RelativeDocumentMoniker": "VMWeb\\Components\\_Imports.razor",
-              "ToolTip": "C:\\Users\\liam.lenton\\Documents\\GitHub\\VMWeb\\VMWeb\\Components\\_Imports.razor",
-              "RelativeToolTip": "VMWeb\\Components\\_Imports.razor",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-08T11:01:33.259Z",
+              "WhenOpened": "2024-07-11T14:39:37.771Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
+              "Title": "TestFormTest.razor",
+              "DocumentMoniker": "C:\\Users\\liam.lenton\\Documents\\GitHub\\VMWeb\\VMWeb\\Components\\Test\\TestFormTest.razor",
+              "RelativeDocumentMoniker": "VMWeb\\Components\\Test\\TestFormTest.razor",
+              "ToolTip": "C:\\Users\\liam.lenton\\Documents\\GitHub\\VMWeb\\VMWeb\\Components\\Test\\TestFormTest.razor",
+              "RelativeToolTip": "VMWeb\\Components\\Test\\TestFormTest.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-11T14:38:28.976Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Routes.razor",
               "DocumentMoniker": "C:\\Users\\liam.lenton\\Documents\\GitHub\\VMWeb\\VMWeb\\Components\\Routes.razor",
               "RelativeDocumentMoniker": "VMWeb\\Components\\Routes.razor",
@@ -171,20 +117,124 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "App.razor",
+              "DocumentMoniker": "C:\\Users\\liam.lenton\\Documents\\GitHub\\VMWeb\\VMWeb\\Components\\App.razor",
+              "RelativeDocumentMoniker": "VMWeb\\Components\\App.razor",
+              "ToolTip": "C:\\Users\\liam.lenton\\Documents\\GitHub\\VMWeb\\VMWeb\\Components\\App.razor",
+              "RelativeToolTip": "VMWeb\\Components\\App.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAABXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-08T10:29:01.643Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "_Imports.razor",
+              "DocumentMoniker": "C:\\Users\\liam.lenton\\Documents\\GitHub\\VMWeb\\VMWeb\\Components\\_Imports.razor",
+              "RelativeDocumentMoniker": "VMWeb\\Components\\_Imports.razor",
+              "ToolTip": "C:\\Users\\liam.lenton\\Documents\\GitHub\\VMWeb\\VMWeb\\Components\\_Imports.razor",
+              "RelativeToolTip": "VMWeb\\Components\\_Imports.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-08T11:01:33.259Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Home.razor",
+              "DocumentMoniker": "C:\\Users\\liam.lenton\\Documents\\GitHub\\VMWeb\\VMWeb\\Components\\Pages\\Home.razor",
+              "RelativeDocumentMoniker": "VMWeb\\Components\\Pages\\Home.razor",
+              "ToolTip": "C:\\Users\\liam.lenton\\Documents\\GitHub\\VMWeb\\VMWeb\\Components\\Pages\\Home.razor",
+              "RelativeToolTip": "VMWeb\\Components\\Pages\\Home.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-08T08:03:45.616Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\liam.lenton\\Documents\\GitHub\\VMWeb\\VMWeb\\appsettings.json",
+              "RelativeDocumentMoniker": "VMWeb\\appsettings.json",
+              "ToolTip": "C:\\Users\\liam.lenton\\Documents\\GitHub\\VMWeb\\VMWeb\\appsettings.json",
+              "RelativeToolTip": "VMWeb\\appsettings.json",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAcwAkAAABkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-07-10T07:54:40.652Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Error.razor",
+              "DocumentMoniker": "C:\\Users\\liam.lenton\\Documents\\GitHub\\VMWeb\\VMWeb\\Components\\Pages\\Error.razor",
+              "RelativeDocumentMoniker": "VMWeb\\Components\\Pages\\Error.razor",
+              "ToolTip": "C:\\Users\\liam.lenton\\Documents\\GitHub\\VMWeb\\VMWeb\\Components\\Pages\\Error.razor",
+              "RelativeToolTip": "VMWeb\\Components\\Pages\\Error.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-08T12:04:08.984Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "UserDataBase.cs",
+              "DocumentMoniker": "C:\\Users\\liam.lenton\\Documents\\GitHub\\VMWeb\\VMWeb\\Components\\Models\\UserDataBase.cs",
+              "RelativeDocumentMoniker": "VMWeb\\Components\\Models\\UserDataBase.cs",
+              "ToolTip": "C:\\Users\\liam.lenton\\Documents\\GitHub\\VMWeb\\VMWeb\\Components\\Models\\UserDataBase.cs",
+              "RelativeToolTip": "VMWeb\\Components\\Models\\UserDataBase.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-10T07:45:22.547Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "MainLayout.razor",
+              "DocumentMoniker": "C:\\Users\\liam.lenton\\Documents\\GitHub\\VMWeb\\VMWeb\\Components\\Layout\\MainLayout.razor",
+              "RelativeDocumentMoniker": "VMWeb\\Components\\Layout\\MainLayout.razor",
+              "ToolTip": "C:\\Users\\liam.lenton\\Documents\\GitHub\\VMWeb\\VMWeb\\Components\\Layout\\MainLayout.razor",
+              "RelativeToolTip": "VMWeb\\Components\\Layout\\MainLayout.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-08T11:18:00.358Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Data.cs",
+              "DocumentMoniker": "C:\\Users\\liam.lenton\\Documents\\GitHub\\VMWeb\\VMWeb\\Data\\Data.cs",
+              "RelativeDocumentMoniker": "VMWeb\\Data\\Data.cs",
+              "ToolTip": "C:\\Users\\liam.lenton\\Documents\\GitHub\\VMWeb\\VMWeb\\Data\\Data.cs",
+              "RelativeToolTip": "VMWeb\\Data\\Data.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-10T07:48:29.021Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\liam.lenton\\Documents\\GitHub\\VMWeb\\VMWeb\\Program.cs",
               "RelativeDocumentMoniker": "VMWeb\\Program.cs",
               "ToolTip": "C:\\Users\\liam.lenton\\Documents\\GitHub\\VMWeb\\VMWeb\\Program.cs",
               "RelativeToolTip": "VMWeb\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAmAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-08T10:28:44.496Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 7,
               "Title": "Login.razor",
               "DocumentMoniker": "C:\\Users\\liam.lenton\\Documents\\GitHub\\VMWeb\\VMWeb\\Components\\Pages\\Login.razor",
               "RelativeDocumentMoniker": "VMWeb\\Components\\Pages\\Login.razor",
@@ -197,20 +247,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "App.razor",
-              "DocumentMoniker": "C:\\Users\\liam.lenton\\Documents\\GitHub\\VMWeb\\VMWeb\\Components\\App.razor",
-              "RelativeDocumentMoniker": "VMWeb\\Components\\App.razor",
-              "ToolTip": "C:\\Users\\liam.lenton\\Documents\\GitHub\\VMWeb\\VMWeb\\Components\\App.razor",
-              "RelativeToolTip": "VMWeb\\Components\\App.razor",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAHAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-08T10:29:01.643Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 15,
               "Title": "CustomerRecords.razor",
               "DocumentMoniker": "C:\\Users\\liam.lenton\\Documents\\GitHub\\VMWeb\\VMWeb\\Components\\Pages\\Company\\CustomerRecords.razor",
               "RelativeDocumentMoniker": "VMWeb\\Components\\Pages\\Company\\CustomerRecords.razor",
@@ -218,11 +255,12 @@
               "RelativeToolTip": "VMWeb\\Components\\Pages\\Company\\CustomerRecords.razor",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-08T12:29:21.255Z"
+              "WhenOpened": "2024-07-08T12:29:21.255Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 13,
               "Title": "app.css",
               "DocumentMoniker": "C:\\Users\\liam.lenton\\Documents\\GitHub\\VMWeb\\VMWeb\\wwwroot\\app.css",
               "RelativeDocumentMoniker": "VMWeb\\wwwroot\\app.css",
@@ -230,19 +268,21 @@
               "RelativeToolTip": "VMWeb\\wwwroot\\app.css",
               "ViewState": "AQIAAB0AAAAAAAAAAADwvzcAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-07-08T12:48:56.062Z"
+              "WhenOpened": "2024-07-08T12:48:56.062Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 12,
               "Title": "Navbar.razor",
               "DocumentMoniker": "C:\\Users\\liam.lenton\\Documents\\GitHub\\VMWeb\\VMWeb\\Components\\Layout\\Navbar.razor",
               "RelativeDocumentMoniker": "VMWeb\\Components\\Layout\\Navbar.razor",
               "ToolTip": "C:\\Users\\liam.lenton\\Documents\\GitHub\\VMWeb\\VMWeb\\Components\\Layout\\Navbar.razor",
               "RelativeToolTip": "VMWeb\\Components\\Layout\\Navbar.razor",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAAABkAAAAXAAAA",
+              "ViewState": "AQIAAAwAAAAAAAAAAIBJwBkAAAAXAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-08T13:26:56.206Z"
+              "WhenOpened": "2024-07-08T13:26:56.206Z",
+              "EditorCaption": ""
             }
           ]
         }

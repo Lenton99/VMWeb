@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "3QQ0AhHhCM/Muerx1pTdbx1GGOI4ByYShQTlXywCd/M=",
+  "Hash": "JOBBUG1879l7QR4MrEBSZjXZazyawFxMHt1IOHlqeOU=",
   "Source": "VMWeb",
   "BasePath": "_content/VMWeb",
   "Mode": "Default",
@@ -16,6 +16,25 @@
     }
   ],
   "Assets": [
+    {
+      "Identity": "C:\\Users\\liam.lenton\\.nuget\\packages\\microsoft.aspnetcore.components.webassembly.authentication\\8.0.6\\staticwebassets\\AuthenticationService.js",
+      "SourceId": "Microsoft.AspNetCore.Components.WebAssembly.Authentication",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\liam.lenton\\.nuget\\packages\\microsoft.aspnetcore.components.webassembly.authentication\\8.0.6\\staticwebassets\\",
+      "BasePath": "_content/Microsoft.AspNetCore.Components.WebAssembly.Authentication",
+      "RelativePath": "AuthenticationService.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\liam.lenton\\.nuget\\packages\\microsoft.aspnetcore.components.webassembly.authentication\\8.0.6\\staticwebassets\\AuthenticationService.js"
+    },
     {
       "Identity": "C:\\Users\\liam.lenton\\Documents\\GitHub\\VMWeb\\VMWeb\\obj\\Debug\\net8.0\\scopedcss\\bundle\\VMWeb.styles.css",
       "SourceId": "VMWeb",

@@ -1,29 +1,7 @@
 ﻿@page "/"
-@inject NavigationManager Navigation
 
 <h3>Edit Form</h3>
 
-<div>
-    <EditForm>
-
-    </EditForm>
-</div>
-
-
 @code {
-    private void OnSave()
-    {
-        // Implement save logic here
-        // For now, just navigate back to the home page or show a message
-        Navigation.NavigateTo("/");
-    }
 
-    public class EditModel
-    {
-        public string FirstName { get; set; }
-        public string LastName { get; set; }
-        public string Email { get; set; }
-    }
-
-    private EditModel em { get; set; } = new EditModel();
 }
