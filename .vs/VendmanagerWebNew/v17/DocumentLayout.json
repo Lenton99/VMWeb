@@ -66,21 +66,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 1,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\liam.lenton\\Documents\\GitHub\\VMWeb\\VMWeb\\appsettings.json",
-              "RelativeDocumentMoniker": "VMWeb\\appsettings.json",
-              "ToolTip": "C:\\Users\\liam.lenton\\Documents\\GitHub\\VMWeb\\VMWeb\\appsettings.json",
-              "RelativeToolTip": "VMWeb\\appsettings.json",
-              "ViewState": "AQIAAAUAAAAAAAAAAAAcwAkAAABkAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-07-10T07:54:40.652Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Document",
               "DocumentIndex": 2,
@@ -91,8 +78,32 @@
               "RelativeToolTip": "VMWeb\\Data\\Data.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-10T07:48:29.021Z",
+              "WhenOpened": "2024-07-10T07:48:29.021Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Home.razor",
+              "DocumentMoniker": "C:\\Users\\liam.lenton\\Documents\\GitHub\\VMWeb\\VMWeb\\Components\\Pages\\Home.razor",
+              "RelativeDocumentMoniker": "VMWeb\\Components\\Pages\\Home.razor",
+              "ToolTip": "C:\\Users\\liam.lenton\\Documents\\GitHub\\VMWeb\\VMWeb\\Components\\Pages\\Home.razor",
+              "RelativeToolTip": "VMWeb\\Components\\Pages\\Home.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-08T08:03:45.616Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\liam.lenton\\Documents\\GitHub\\VMWeb\\VMWeb\\appsettings.json",
+              "RelativeDocumentMoniker": "VMWeb\\appsettings.json",
+              "ToolTip": "C:\\Users\\liam.lenton\\Documents\\GitHub\\VMWeb\\VMWeb\\appsettings.json",
+              "RelativeToolTip": "VMWeb\\appsettings.json",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAcwAkAAABkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-07-10T07:54:40.652Z"
             },
             {
               "$type": "Document",
@@ -104,8 +115,7 @@
               "RelativeToolTip": "VMWeb\\Components\\Models\\UserDataBase.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-10T07:45:22.547Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-10T07:45:22.547Z"
             },
             {
               "$type": "Document",
@@ -117,8 +127,7 @@
               "RelativeToolTip": "VMWeb\\Components\\Pages\\Error.razor",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-08T12:04:08.984Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-08T12:04:08.984Z"
             },
             {
               "$type": "Document",
@@ -130,8 +139,7 @@
               "RelativeToolTip": "VMWeb\\Components\\Layout\\MainLayout.razor",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAASAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-08T11:18:00.358Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-08T11:18:00.358Z"
             },
             {
               "$type": "Document",
@@ -143,8 +151,7 @@
               "RelativeToolTip": "VMWeb\\Components\\_Imports.razor",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-08T11:01:33.259Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-08T11:01:33.259Z"
             },
             {
               "$type": "Document",
@@ -156,8 +163,7 @@
               "RelativeToolTip": "VMWeb\\Components\\Routes.razor",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-08T11:00:50.228Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-08T11:00:50.228Z"
             },
             {
               "$type": "Document",
@@ -169,8 +175,7 @@
               "RelativeToolTip": "VMWeb\\Program.cs",
               "ViewState": "AQIAAAwAAAAAAAAAAAAAABoAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-08T10:28:44.496Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-08T10:28:44.496Z"
             },
             {
               "$type": "Document",
@@ -182,21 +187,7 @@
               "RelativeToolTip": "VMWeb\\Components\\Pages\\Login.razor",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAALAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-09T11:11:44.157Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Home.razor",
-              "DocumentMoniker": "C:\\Users\\liam.lenton\\Documents\\GitHub\\VMWeb\\VMWeb\\Components\\Pages\\Home.razor",
-              "RelativeDocumentMoniker": "VMWeb\\Components\\Pages\\Home.razor",
-              "ToolTip": "C:\\Users\\liam.lenton\\Documents\\GitHub\\VMWeb\\VMWeb\\Components\\Pages\\Home.razor",
-              "RelativeToolTip": "VMWeb\\Components\\Pages\\Home.razor",
-              "ViewState": "AQIAADkAAAAAAAAAAAAAAE4AAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-08T08:03:45.616Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-09T11:11:44.157Z"
             },
             {
               "$type": "Document",
@@ -208,8 +199,7 @@
               "RelativeToolTip": "VMWeb\\Components\\App.razor",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-08T10:29:01.643Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-08T10:29:01.643Z"
             },
             {
               "$type": "Document",
@@ -221,8 +211,7 @@
               "RelativeToolTip": "VMWeb\\Components\\Pages\\Company\\CustomerRecords.razor",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-08T12:29:21.255Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-08T12:29:21.255Z"
             },
             {
               "$type": "Document",
@@ -234,8 +223,7 @@
               "RelativeToolTip": "VMWeb\\wwwroot\\app.css",
               "ViewState": "AQIAAB0AAAAAAAAAAADwvzcAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-07-08T12:48:56.062Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-08T12:48:56.062Z"
             },
             {
               "$type": "Document",
@@ -247,8 +235,7 @@
               "RelativeToolTip": "VMWeb\\Components\\Layout\\Navbar.razor",
               "ViewState": "AQIAAA8AAAAAAAAAAAAAABkAAAAXAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-08T13:26:56.206Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-08T13:26:56.206Z"
             }
           ]
         }

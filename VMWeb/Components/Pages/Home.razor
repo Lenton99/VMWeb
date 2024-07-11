@@ -1,96 +1,42 @@
 ﻿@page "/"
-@inject VMWeb.Data.Data DbContext
+@inject NavigationManager Navigation
 
-<div class="card cw-480">
-    <EditForm Model="@Data"
-              OnValidSubmit="@HandleValidSubmit"
-              OnInvalidSubmit="@HandleInvalidSubmit"
-              Context="EditFormContext">
-        <DataAnnotationsValidator />
-        <div class="card-header text-center py-3">
-            <h4>Welcome to Vendmanager</h4>
-            <p class="tm-8 mb-0 fw-normal fs-825">
-                Log in below
-            </p>
-        </div>
-        <div class="card-body">
-            <DxFormLayout>
-                <DxFormLayoutItem ColSpanMd="12">
-                    <label for="tbUsername" class="d-none">Username</label>
-                    <DxTextBox @bind-Text="@Data.Code"
-                               NullText="Username"
-                               ClearButtonDisplayMode="DataEditorClearButtonDisplayMode.Auto"
-                               InputId="tbUsername" />
-                    <div class="text-danger">
-                        <ValidationMessage For="@(() => Data.Code)" />
-                    </div>
-                </DxFormLayoutItem>
-                <DxFormLayoutItem ColSpanMd="12">
-                    <label for="tbPassword" class="d-none">Password</label>
-                    <DxTextBox @bind-Text="@Data.Password"
-                               NullText="Password"
-                               Password="true"
-                               ClearButtonDisplayMode="DataEditorClearButtonDisplayMode.Auto"
-                               InputId="tbPassword" />
-                    <div class="text-danger">
-                        <ValidationMessage For="@(() => Data.Password)" />
-                    </div>
-                </DxFormLayoutItem>
-                <DxFormLayoutItem ColSpanMd="12">
-                    <DxButton CssClass="w-100"
-                              Text="Login"
-                              RenderStyle="ButtonRenderStyle.Primary"
-                              SubmitFormOnClick="true" />
-                </DxFormLayoutItem>
-                <DxFormLayoutItem ColSpanMd="12">
-                    <div class="text-center pt-2">
-                        <div class="tm-8 fs-825">
-                            Do not have an account?
-                        </div>
-                        <DxButton Text="Create an account"
-                                  RenderStyle="ButtonRenderStyle.Link"
-                                  Click="GotoRegistrationFormClick" />
-                    </div>
-                </DxFormLayoutItem>
-            </DxFormLayout>
-        </div>
+<h3>Edit Form</h3>
+
+<div>
+    <EditForm>
+        <DxFormLayout>
+            <DxFormLayoutItem Caption="First Name">
+                <DxTextBox contextmenu="textboxCtx" @bind-Text="@em.FirstName" />
+            </DxFormLayoutItem>
+            <DxFormLayoutItem Caption="Last Name">
+                <DxTextBox contextmenu="textboxCtx" @bind-Text="@em.LastName" />
+            </DxFormLayoutItem>
+            <DxFormLayoutItem Caption="Email">
+                <DxTextBox contextmenu="textboxCtx" @bind-Text="@em.Email" />
+            </DxFormLayoutItem>
+            <DxFormLayoutItem>
+                <DxButton contextmenu="buttonCtx" Text="Save" Click="@OnSave" />
+            </DxFormLayoutItem>
+        </DxFormLayout>
     </EditForm>
 </div>
-<p class="tm-8 cw-480 mt-2">
-    @FormSubmitResult
-</p>
+
 
 @code {
-    [Parameter]
-    public SizeMode SizeMode { get; set; }
-    [Parameter]
-    public EventCallback GotoRegistrationForm { get; set; }
-    string FormSubmitResult = "";
-    UserDataBase Data { get; set; } = new UserDataBase();
-
-    async Task GotoRegistrationFormClick()
+    private void OnSave()
     {
-        FormSubmitResult = "";
-        await GotoRegistrationForm.InvokeAsync();
+        // Implement save logic here
+        // For now, just navigate back to the home page or show a message
+        Navigation.NavigateTo("/");
     }
 
-    async void HandleValidSubmit()
+    public class EditModel
     {
-        var user = await DbContext.Users
-            .FirstOrDefaultAsync(u => u.Code == Data.Code && u.Password == Data.Password);
-
-        if (user != null)
-        {
-            FormSubmitResult = "You have been logged in successfully.";
-        }
-        else
-        {
-            FormSubmitResult = "Invalid username or password.";
-        }
+        public string FirstName { get; set; }
+        public string LastName { get; set; }
+        public string Email { get; set; }
     }
 
-    void HandleInvalidSubmit()
-    {
-        FormSubmitResult = "Please fill in the form correctly.";
-    }
+    private EditModel em { get; set; } = new EditModel();
 }
