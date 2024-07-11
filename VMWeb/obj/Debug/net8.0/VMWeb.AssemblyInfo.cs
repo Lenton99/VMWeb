@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("VMWeb")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9aabea436de77d3a5db5ad6217eb03621c9df79b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0fedbe26c0db8717cde196e93ec472dc9079bb43")]
 [assembly: System.Reflection.AssemblyProductAttribute("VMWeb")]
 [assembly: System.Reflection.AssemblyTitleAttribute("VMWeb")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

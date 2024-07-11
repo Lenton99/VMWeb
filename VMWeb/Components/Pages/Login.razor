@@ -1,30 +1,5 @@
 ﻿@page "/login"
-@using DevExpress.Blazor
 @inject NavigationManager Navigation
-
-<EditForm Model="@loginModel" OnValidSubmit="@HandleValidSubmit">
-    <DataAnnotationsValidator />
-    <DxValidationSummary />
-    @* <DxFormLayout>
-        <DxFormLayoutItem Caption="Username">
-            <DxTextBox @bind-Text="loginModel.Username" ValidationSettings-ValidateOnInput="true">
-                <ValidationRules>
-                    <RequiredRule Message="Username is required." />
-                </ValidationRules>
-            </DxTextBox>
-        </DxFormLayoutItem>
-        <DxFormLayoutItem Caption="Password">
-            <DxTextBox @bind-Text="loginModel.Password" Password="true" ValidationSettings-ValidateOnInput="true">
-                <ValidationRules>
-                    <RequiredRule Message="Password is required." />
-                </ValidationRules>
-            </DxTextBox>
-        </DxFormLayoutItem>
-        <DxFormLayoutItem>
-            <DxButton RenderStyle="ButtonRenderStyle.Primary" SubmitFormOnClick="true">Login</DxButton>
-        </DxFormLayoutItem>
-    </DxFormLayout> *@
-</EditForm>
 
 @if (loginFailed)
 {
