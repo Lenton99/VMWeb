@@ -31,7 +31,7 @@ steps:
   displayName: 'Stage 4 - VM Run bUnit Tests'
 
 - task: PublishTestResults@2
-  displayName: 'Stage 5 -VM Publish Test Results'
+  displayName: 'Stage 5 - VM Publish Test Results'
   inputs:
     testResultsFiles: '$(Build.ArtifactStagingDirectory)/TestResults/*.trx'
     mergeTestResults: true
