@@ -11596,6 +11596,7 @@
         "C:\\Program Files\\DevExpress 24.1\\Components\\Offline Packages"
       ],
       "configFilePaths": [
+        "C:\\Users\\liam.lenton\\Documents\\GitHub\\VMWeb\\NuGet.Config",
         "C:\\Users\\liam.lenton\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 20.1.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 24.1.config",
@@ -11609,6 +11610,7 @@
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "C:\\Program Files\\DevExpress 24.1\\Components\\System\\Components\\Packages": {},
         "https://api.nuget.org/v3/index.json": {},
+        "https://nuget.devexpress.com/SfdzdiukZYW8SHPQ4Xm8euzZHdiblTHp7W2nPbHPwsCHLfgEV6/api/v3/index.json": {},
         "https://nuget.devexpress.com/SfdzdiukZYW8SHPQ4Xm8euzZHdiblTHp7W2nPbHPwsCHLfgEV6/api/v3/index.json": {}
       },
       "frameworks": {
