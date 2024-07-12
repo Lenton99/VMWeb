@@ -11,15 +11,15 @@ variables:
 
 steps:
 - task: NuGetToolInstaller@1
-  displayName: 'Install NuGet'
+  displayName: 'Stage 1 - VM Install NuGet'
 
 - task: NuGetCommand@2
-  displayName: 'Restore NuGet Packages'
+  displayName: 'Stage 2 - VM Restore NuGet Packages'
   inputs:
     restoreSolution: '$(solution)'
 
 - task: VSBuild@1
-  displayName: 'Build VM'
+  displayName: 'Stage 3 - VM Build'
   inputs:
     solution: '$(solution)'
     msbuildArgs: '/p:DeployOnBuild=true /p:WebPublishMethod=Package /p:PackageAsSingleFile=true /p:SkipInvalidConfigurations=true /p:DesktopBuildPackageLocation="$(build.artifactStagingDirectory)\WebApp.zip" /p:DeployIisAppPath="Default Web Site"'
@@ -28,11 +28,19 @@ steps:
 
 - script: |
     dotnet test --configuration $(buildConfiguration) --logger trx --results-directory $(Build.ArtifactStagingDirectory)/TestResults
-  displayName: 'Run VM bUnit Tests'
+  displayName: 'Stage 4 - VM Run bUnit Tests'
 
 - task: PublishTestResults@2
-  displayName: 'Publish Test Results For VM'
+  displayName: 'Stage 5 - VM Publish Test Results'
   inputs:
     testResultsFiles: '$(Build.ArtifactStagingDirectory)/TestResults/*.trx'
     mergeTestResults: true
     testRunTitle: 'bUnit Tests'
+
+- task: SonarCloudPrepare@1
+  displayName: 'Stage 6 - VM Code Analysis'
+  inputs:
+    SonarCloud: 'VMWeb'  # Use the name of your SonarCloud service connection
+    organization: 'lenton99'  # Replace with your SonarCloud organization key
+    projectKey: 'Lenton99_VMWeb'  # Replace with your SonarCloud project key
+    projectName: 'VMWeb'  # Replace with your SonarCloud project name
