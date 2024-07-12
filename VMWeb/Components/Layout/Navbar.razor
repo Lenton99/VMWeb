@@ -1,36 +1,20 @@
-﻿<DxAccordion AllowItemSelection="true" ActiveItemIndex="@activeItemIndex" Class="vertical-accordion">
-    <AccordionItem Text="Home">
-        @* <NavLink href="/" class="nav-link">Home</NavLink> *@
-    </AccordionItem>
-    <AccordionItem Text="Company">
-        @* <NavLink href="/company/overview" class="nav-link">Overview</NavLink>
-        <NavLink href="/company/team" class="nav-link">Team</NavLink>
-        <NavLink href="/company/careers" class="nav-link">Careers</NavLink> *@
-    </AccordionItem>
-    <AccordionItem Text="Products">
-       @*  <NavLink href="/products/all" class="nav-link">All Products</NavLink>
-        <NavLink href="/products/new" class="nav-link">New Products</NavLink> *@
-    </AccordionItem>
-</DxAccordion>
-
-@code {
-    int activeItemIndex = -1; // Initialize with no item selected
-}
-
-<style>
-    .vertical-accordion {
-        width: 250px; /* Adjust width as needed */
-    }
-
-    .nav-link {
-        display: block;
-        padding: 8px 12px;
-        color: #333;
-        background-color: red;   
-        text-decoration: none;
-    }
-
-    .nav-link:hover {
-        background-color: #f0f0f0;
-    }
-</style>
+﻿<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="/">Vendmanager Web</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav mr-auto">
+            <!-- Add 'mr-auto' here -->
+            <li class="nav-item">
+                <NavLink class="nav-link" href="/">Home</NavLink>
+            </li>
+            <li class="nav-item">
+                <NavLink class="nav-link" href="/about">About</NavLink>
+            </li>
+            <li class="nav-item">
+                <NavLink class="nav-link" href="/contact">Contact</NavLink>
+            </li>
+        </ul>
+    </div>
+</nav>

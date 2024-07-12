@@ -1,19 +1,22 @@
 ﻿@inherits LayoutComponentBase
 
 <div class="page">
-    <div class="sidebar">
+    <header class="header">
         <Navbar />
+    </header>
+
+    <div class="main">
+        <div class="sidebar">
+            <Sidebar />
+        </div>
+        <main class="content">
+            @Body
+        </main>
     </div>
 
-    <main>
-        <div class="top-row px-4">
-            <h2>Vendmanager</h2>
-        </div>
-
-        <article class="content px-4">
-            @Body
-        </article>
-    </main>
+    <footer class="footer">
+        <Footer />
+    </footer>
 </div>
 
 <div id="blazor-error-ui">

@@ -53,3 +53,60 @@ h1:focus {
 /**
 *   Nav Menu Design
 */
+
+.page {
+    display: grid;
+    grid-template-rows: auto 1fr auto; /* Header, main (content + sidebar), footer */
+    grid-template-columns: 200px 1fr; /* Sidebar, main content */
+    grid-template-areas:
+        "header header"
+        "sidebar main"
+        "footer footer";
+    height: 100vh;
+}
+
+.header {
+    grid-area: header;
+    background-color: #f8f9fa;
+}
+
+.sidebar {
+    grid-area: sidebar;
+    background-color: #343a40;
+    color: white;
+    padding: 20px;
+}
+
+.main-content {
+    grid-area: main;
+    padding: 20px;
+}
+
+.footer {
+    grid-area: footer;
+    background-color: #f8f9fa;
+    text-align: center;
+    padding: 10px;
+}
+
+.content {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+@media (max-width: 768px) {
+    .page {
+        grid-template-rows: auto 1fr auto;
+        grid-template-columns: 1fr;
+        grid-template-areas:
+            "header"
+            "main"
+            "footer";
+    }
+
+    .sidebar {
+        display: none;
+    }
+}
