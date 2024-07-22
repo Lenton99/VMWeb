@@ -9,6 +9,10 @@
       "PackagePath": "staticwebassets\\app.css"
     },
     {
+      "Id": "C:\\Users\\liam.lenton\\Documents\\GitHub\\VMWeb\\VMWeb\\wwwroot\\bootstrap\\bootstrap-icons.css",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap-icons.css"
+    },
+    {
       "Id": "C:\\Users\\liam.lenton\\Documents\\GitHub\\VMWeb\\VMWeb\\wwwroot\\bootstrap\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css"
     },

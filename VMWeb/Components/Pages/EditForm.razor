@@ -1,0 +1,45 @@
+﻿@page "/edit"
+@rendermode InteractiveServer
+@inject Controllers.ContactController ContactController
+@inject NavigationManager NavMan
+@inject ProtectedSessionStorage ProtectedSessionStore
+
+<h3>EditForm</h3>
+
+@if (EditContact != null)
+{
+    <p>@EditContact.RecordId</p>
+}
+else
+{
+    <p>Loading...</p>
+}
+
+@code {
+    private Contact? EditContact;
+
+    //Pre UI Rendering allows for component state management, fetching data async (not sessions) 
+    protected override async Task OnInitializedAsync()
+    {
+        
+    }
+
+    //Post UI Rendered allows for JS Interop calls.
+    protected override async Task OnAfterRenderAsync(bool isRendered)
+    {
+        if (isRendered)
+        {
+            var result = await ProtectedSessionStore.GetAsync<Contact>("EditContact");
+            if (result.Success)
+            {
+                EditContact = result.Value;
+            }
+            else
+            {
+                // Handle error or not found case
+                NavMan.NavigateTo("/"); // Redirect to home or handle error
+            }
+            StateHasChanged();
+        }
+    }
+}

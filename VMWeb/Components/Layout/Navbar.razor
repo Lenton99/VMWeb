@@ -1,20 +1,55 @@
-﻿<nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="/">Vendmanager Web</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav mr-auto">
-            <!-- Add 'mr-auto' here -->
-            <li class="nav-item">
-                <NavLink class="nav-link" href="/">Home</NavLink>
-            </li>
-            <li class="nav-item">
-                <NavLink class="nav-link" href="/about">About</NavLink>
-            </li>
-            <li class="nav-item">
-                <NavLink class="nav-link" href="/contact">Contact</NavLink>
-            </li>
-        </ul>
-    </div>
-</nav>
+﻿@rendermode InteractiveServer
+
+<DxAccordion ExpandMode="ExpandMode"
+             ExpandCollapseAction="ExpandCollapseAction"
+             RootItemExpandButtonDisplayMode="AccordionExpandButtonDisplayMode.End"
+             AnimationType="LayoutAnimationType.Slide"
+             CssClass="custom-accordion">
+    <Items>
+        <DxAccordionItem Text="Dashboard" Expanded="true" CssClass="dx-accordion-header">
+            <ContentTemplate>
+                <p class="accordion-content">Dashboard</p>
+                <p class="accordion-content">Dashboard Editor</p>
+            </ContentTemplate>
+        </DxAccordionItem>
+        <DxAccordionItem Text="Company" Expanded="true" CssClass="dx-accordion-header">
+            <ContentTemplate>
+                <p class="accordion-content">User Groups</p>
+                <p class="accordion-content">Employee Records</p>
+                <p class="accordion-content">Region Records</p>
+                <p class="accordion-content">Area Records</p>
+                <p class="accordion-content">Customer Records</p>
+            </ContentTemplate>
+        </DxAccordionItem>
+        <DxAccordionItem Text="Sites" Expanded="true" CssClass="dx-accordion-header">
+            <ContentTemplate>
+                <p class="accordion-content">Site Records</p>
+                <p class="accordion-content">Site Transfers</p>
+            </ContentTemplate>
+        </DxAccordionItem>
+        <DxAccordionItem Text="Machines" Expanded="true" CssClass="dx-accordion-header">
+            <ContentTemplate>
+                <p class="accordion-content">Machine Types</p>
+                <p class="accordion-content">Machine Records</p>
+                <p class="accordion-content">Brand Change (W)</p>
+                <p class="accordion-content">Asset Depreciation (W)</p>
+            </ContentTemplate>
+        </DxAccordionItem>
+        <DxAccordionItem Text="Cash" Expanded="true" CssClass="dx-accordion-header">
+            <ContentTemplate>
+                <p class="accordion-content">Coin Counter</p>
+                <p class="accordion-content">Cash Reconciliation (S)</p>
+                <p class="accordion-content">Cash Reconciliation (W)</p>
+                <p class="accordion-content">Coin Counter (Manual Match)</p>
+            </ContentTemplate>
+        </DxAccordionItem>
+    </Items>
+</DxAccordion>
+@code
+{
+    bool Expanded = false;
+    bool EnableCollapsedChildNavigation = true;
+
+    DevExpress.Blazor.AccordionExpandMode ExpandMode { get; set; } = DevExpress.Blazor.AccordionExpandMode.SingleOrNone;
+    DevExpress.Blazor.AccordionExpandCollapseAction ExpandCollapseAction { get; set; } = DevExpress.Blazor.AccordionExpandCollapseAction.HeaderClick;
+}

@@ -1,7 +1,47 @@
 ﻿@page "/"
+@rendermode InteractiveServer
+@inject Controllers.ContactController ContactController
+@inject NavigationManager NavMan
+@inject ProtectedSessionStorage ProtectedSessionStore
 
-<h3>Edit Form</h3>
+<h1>Dynamic Grid</h1>
+
+<DxGrid Data="@ContactData" ShowBorders="true" 
+        DataItemDeleting="OnDataItemDeleting"
+        EditStart="OnEditStart">
+    <Columns>
+        <DxGridCommandColumn Width="150px" />
+        <DxGridDataColumn FieldName=RecordId Caption="ID" />
+        <DxGridDataColumn FieldName=Forename Caption="First Name" />
+        <DxGridDataColumn FieldName=Surname Caption="Last Name" />
+        <DxGridDataColumn FieldName=Email Caption="Email" />
+    </Columns>
+</DxGrid>
+
+<p>@ContactData.Count items returned</p>
+<p>@SelectedContact.RecordId</p>
 
 @code {
+    private List<Contact> ContactData = new List<Contact>();
+    private int ContactCount = 0;
+    private Contact SelectedContact = new Contact();
+    private string ContactJson = "";
 
+    protected override async Task OnInitializedAsync()
+    {
+        ContactData = await ContactController.GetAllContacts();
+        ContactCount = ContactData.Count();
+    }
+
+    private async void OnEditStart(GridEditStartEventArgs e)
+    {
+        SelectedContact = (Contact)e.DataItem;
+        await ProtectedSessionStore.SetAsync("EditContact", SelectedContact);
+        NavMan.NavigateTo("/edit");
+    }
+
+    private void OnDataItemDeleting(GridDataItemDeletingEventArgs e)
+    {
+        
+    }
 }

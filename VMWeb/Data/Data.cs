@@ -1,5 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using VMWeb.Components.Models;
+using VMWeb.Models;
 
 namespace VMWeb.Data
 {
@@ -11,6 +11,6 @@ namespace VMWeb.Data
 
         }
 
-        public DbSet<UserDataBase> Users { get; set; }
+        public DbSet<Contact> Contacts { get; set; }
     }
 }

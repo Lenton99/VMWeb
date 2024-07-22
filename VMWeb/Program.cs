@@ -1,6 +1,9 @@
+using DevExpress.Blazor;
 using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.FluentUI.AspNetCore.Components;
 using VMWeb.Components;
+using VMWeb.Controllers;
 using VMWeb.Data;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -17,10 +20,17 @@ builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationSc
         options.Cookie.MaxAge = TimeSpan.FromMinutes(30);
         options.AccessDeniedPath = "/access-denied";
     });
+
 builder.Services.AddAuthorization();
 builder.Services.AddCascadingAuthenticationState();
-
+builder.Services.AddDevExpressBlazor(configure => configure.BootstrapVersion = BootstrapVersion.v5);
+builder.Services.AddFluentUIComponents();
+builder.Services.AddHttpClient();
 builder.Services.AddMvc();
+builder.Services.AddScoped<ContactController, ContactController>();
+builder.Services.AddSession();
+
+//Microsoft.AspNetCore.Http.ISession
 
 builder.Services.AddDbContext<Data>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));

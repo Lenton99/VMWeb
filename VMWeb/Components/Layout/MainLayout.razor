@@ -1,26 +1,42 @@
 ﻿@inherits LayoutComponentBase
 
-<div class="page">
-    <header class="header">
-        <Navbar />
-    </header>
+<DxGridLayout CssClass="w-100 ch-480">
+    <Rows>
+        <DxGridLayoutRow Areas="header header header" Height="auto" />
+        <DxGridLayoutRow Areas="left-bar content content" />
+        <DxGridLayoutRow Areas="footer footer footer" Height="auto" />
+    </Rows>
+    <Columns>
+        <DxGridLayoutColumn Width="20%" />
+        <DxGridLayoutColumn Width="80%" />
+    </Columns>
+    <Items>
+        <DxGridLayoutItem Area="header" CssClass="header-item">
+            <Template>
+                Vendmanager
+            </Template>
+        </DxGridLayoutItem>
+        <DxGridLayoutItem Area="content" CssClass="content-item">
+            <Template>
+                <main class="content">
+                    @Body
+                </main>
+            </Template>
+        </DxGridLayoutItem>
+        <DxGridLayoutItem Area="left-bar" CssClass="left-bar-item">
+            <Template>
+                <Navbar />
+            </Template>
+        </DxGridLayoutItem>
+        <DxGridLayoutItem Area="footer" CssClass="footer-item">
+            <Template>
+                Footer
+            </Template>
+        </DxGridLayoutItem>
+    </Items>
+</DxGridLayout>
 
-    <div class="main">
-        <div class="sidebar">
-            <Sidebar />
-        </div>
-        <main class="content">
-            @Body
-        </main>
-    </div>
-
-    <footer class="footer">
-        <Footer />
-    </footer>
-</div>
-
-<div id="blazor-error-ui">
-    An unhandled error has occurred.
-    <a href="" class="reload">Reload</a>
-    <a class="dismiss">🗙</a>
-</div>
+<FluentToastProvider />
+<FluentDialogProvider />
+<FluentTooltipProvider />
+<FluentMessageBarProvider />

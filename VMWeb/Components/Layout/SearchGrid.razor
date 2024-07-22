@@ -1,0 +1,33 @@
+﻿@rendermode InteractiveServer
+@typeparam GridData
+
+<h3>Dynamic Grid</h3>
+
+<DxGrid Data="@GridData" ShowBorders="true"
+        DataItemDeleting="OnDataItemDeleting"
+        EditStart="OnEditStart">
+    <Columns>
+        <DxGridCommandColumn Width="150px" />
+        @foreach (var prop in typeof(GridData).GetProperties())
+        {
+            <DxGridDataColumn FieldName="@prop.Name" Caption="@prop.Name" />
+        }
+    </Columns>
+</DxGrid>
+
+@code {
+    [Parameter]
+    public IEnumerable<GridData> GridData { get; set; }
+
+    private async void OnEditStart(GridEditStartEventArgs e)
+    {
+        SelectedContact = (Contact)e.DataItem;
+        await ProtectedSessionStore.SetAsync("EditContact", SelectedContact);
+        NavMan.NavigateTo("/edit");
+    }
+
+    private void OnDataItemDeleting(GridDataItemDeletingEventArgs e)
+    {
+
+    }
+}

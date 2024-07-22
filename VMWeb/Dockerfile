@@ -2,6 +2,9 @@
 FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
 WORKDIR /app
 
+# Copy the solution file and the NuGet.config file
+COPY ["NuGet.config", "VendmanagerWebNew.sln", "./"]
+
 # Copy csproj and restore as distinct layers
 COPY VMWeb.csproj .
 RUN dotnet restore
